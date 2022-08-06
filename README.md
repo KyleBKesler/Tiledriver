@@ -2,6 +2,8 @@
 
 Project for CSC 480 (Aritificial Intelligence) Writing an AI solve the sliding tile puzzle using the A* Search algorithm.
 
+![My Image](ex_puzzle.jpg "Example TilePuzzle")
+
 In this project I defined 2 main classes:
 
 TilePuzzle - defines the size and starting state of the tile puzzle
