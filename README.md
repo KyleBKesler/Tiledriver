@@ -4,7 +4,7 @@ Project for CSC 480 (Aritificial Intelligence) Writing an AI solve the sliding t
 
 In this project I defined 2 main classes:
 
-TilePuzzle
+TilePuzzle - defines the size and starting state of the tile puzzle
 State
 
 TilePuzzle defines the sliding puzzle game. It will allow you to set the size of the puzzle (nxn), as well as let you provide an initial state for the puzzle in which you want to solve. If no initial state is given, it will generate a random puzzle of a user defined size.
