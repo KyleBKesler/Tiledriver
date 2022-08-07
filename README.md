@@ -14,10 +14,16 @@ TILEDRIVER
 
 In this project I defined 2 main classes:
 
-TilePuzzle - defines the size, starting state of the puzzle, and holds a queue of valid frontier states. 
-State
+TilePuzzle:
+  - width : defines the size of the matrix (size = 9 -> width = 3)
+  - start_state : starting state of the puzzle
+  - frontier : priority queue that holds the valid frontier states.
 
-A* Search
+State:
+  - tiles : current arrangement of the tiles
+  - path : the set of moves to get from the starting state to this arrangement of tiles
+  - h : approximation from current state to goal state using Manhattan distance and linear conflicts
+  - f : number of moves made from start + h
 
 TILEDRIVER II
 
