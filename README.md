@@ -29,7 +29,7 @@ TILEDRIVER II
 
 Nearly half of the possible configurations of the sliding tile puzzle aren't solvable! Any configuration that is created by shifting tiles from a solved state will produce a solvable puzzle, but this is inefficient at creating configurations with solutions of a specific number of moves.
 
-To minimize time complexity I used simulated anneaing and uphill climbing algorithms.
+To minimize time complexity I used a simulated anneaing algorithm and an uphill climbing algorithm with random restarts to increase exploration.
 
 
 **The Heuristic class and _count_inversions was given to me by my professor, but the rest was written exclusively by me.**
